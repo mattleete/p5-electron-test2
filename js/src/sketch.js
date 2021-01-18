@@ -23,8 +23,8 @@ const sketch = (p) => {
     p.fill(fillColor)
 
     p.ellipse(p.mouseX, p.mouseY, 80, 80);
-    fill(200,200,0);
-    p.rect(40, 40, 30, 70);
+    //fill(200,200,0);
+    //p.rect(40, 40, 30, 70);
   };
 
   p.windowResized = () => {
